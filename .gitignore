@@ -1,0 +1,3 @@
+.sops.yaml
+keys
+nixos-switch.log
