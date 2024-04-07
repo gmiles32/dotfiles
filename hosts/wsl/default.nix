@@ -16,19 +16,7 @@ inputs.nixpkgs.lib.nixosSystem {
       nixpkgs.hostPlatform = system;
       nixpkgs.config.allowUnfree = true;
 
-      # Programs
-      gnome.enable = false;
-      vscodium.enable = false;
-      syncthing.enable = false;
-      firefox.enable = false;
-      obsidian.enable = false;
-      spotify.enable = false;
-      bitwarden.enable = false;
-      zotero.enable = false;
-      discord.enable = false;      
       neovim.enable = true;
-      alacritty.enable = false;
-      tmux.enable = true;
 
       # WSL
       wsl = {
@@ -48,7 +36,7 @@ inputs.nixpkgs.lib.nixosSystem {
       # Networking
       services.openssh.enable = true;
       tailscale = {
-        enable = false;
+        enable = true;
         loginServer = "";
         acceptRoutes = true;
       };
