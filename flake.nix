@@ -15,6 +15,11 @@
       url = "github:Mic92/sops-nix";
       inputs.nixpkgs.follows ="nixpkgs";
     };
+
+    wsl = {
+      url = "github:nix-community/NixOS-WSL";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { nixpkgs, ... }@inputs:
@@ -33,7 +38,7 @@
     in rec {
       nixosConfigurations = {
         seneca = import ./hosts/seneca { inherit inputs globals system; };
-        # hullen
+        wsl = import ./hosts/wsl { inherit inputs globals system; };
       };
     };
 }
