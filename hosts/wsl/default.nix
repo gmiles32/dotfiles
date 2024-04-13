@@ -19,6 +19,7 @@ inputs.nixpkgs.lib.nixosSystem {
       neovim.enable = true;
 
       # WSL
+      virtual = true;
       wsl = {
         enable = true;
         wslConf.automount.root = "/mnt";

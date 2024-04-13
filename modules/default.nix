@@ -17,6 +17,10 @@
       type = lib.types.str;
       description = "Human readable name of user";
     }; 
+    virtual = lib.mkEnableOption {
+      default = false;
+      description = "Disable baremetal options";
+    };
   };
 
   config = let stateVersion = "23.11";

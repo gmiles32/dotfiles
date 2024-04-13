@@ -1,6 +1,6 @@
 { config, pkgs, lib, ... }: {
   
-  config = lib.mkIf (!config.wsl.enable) {
+  config = lib.mkIf (!config.virtual) {
     # Set latest kernel
     boot.kernelPackages = pkgs.linuxPackages_latest;
     
