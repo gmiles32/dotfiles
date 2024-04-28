@@ -14,7 +14,7 @@ buildNpmPackage rec {
   meta = with lib; {
     description = "Quartz is a set of tools that helps you publish your digital garden and notes as a website for free. Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.";
     homepage = "https://quartz.jzhao.xyz/";
-    license = license.mit;
+    license = licenses.mit;
   };
 
 }
