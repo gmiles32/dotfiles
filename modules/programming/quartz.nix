@@ -1,6 +1,6 @@
 { config, pkgs, lib, ... }: {
   
-  import = [
+  imports = [
     ./npm
   ];
 
