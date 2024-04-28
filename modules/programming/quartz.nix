@@ -8,9 +8,7 @@
 
   config = lib.mkIf config.quartz.enable {
     home-manager.users.${config.user} = {
-      home.packages = (with npm; [
-        quartz
-      ]);
+      home.packages = [ pkgs.npm.quartz ];
     };
   };
 }
