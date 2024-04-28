@@ -8,7 +8,7 @@
 
   config = lib.mkIf config.quartz.enable {
     home-manager.users.${config.user} = {
-      home.packages = [ pkgs.npm.quartz ];
+      home.packages = [ pkgs.npm.quartz pkgs.nodejs_21 ];
     };
   };
 }
