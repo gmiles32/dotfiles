@@ -6,10 +6,4 @@
     ./npm
   ];
 
-  home-manager.users.${config.user} = {
-    home.packages = (with npm; [
-      quartz
-    ]);
-  };
-
 }
