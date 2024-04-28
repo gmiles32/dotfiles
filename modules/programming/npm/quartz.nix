@@ -8,7 +8,7 @@ buildNpmPackage rec {
     owner = "jackyzha0";
     repo = pname;
     rev = "v${version}";
-    hast = "";
+    hash = "";
   };
 
   meta = with lib; {
