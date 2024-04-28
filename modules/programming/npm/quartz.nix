@@ -8,7 +8,7 @@ buildNpmPackage rec {
     owner = "jackyzha0";
     repo = pname;
     rev = "v${version}";
-    hash = "";
+    hash = "sha256-OivDSADpfhvMKqTHCvDCpHrZDipA1H8jxLiacdmLseU=";
   };
 
   npmPackFlags = [ "--ignore-scripts" ];
