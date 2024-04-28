@@ -12,7 +12,7 @@ buildNpmPackage rec {
   };
 
   npmDepsHash = "sha256-eHYCSUWI39Agbu2reA9u2MtDyQJ0mz2Mkb7GW/aR8Yc=";
-  npmPackFlags = [ "--ignore-scripts" ];
+  # npmPackFlags = [ "--ignore-scripts" ];
   dontNpmBuild = true;
 
   meta = with lib; {
