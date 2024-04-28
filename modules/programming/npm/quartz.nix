@@ -11,6 +11,8 @@ buildNpmPackage rec {
     hash = "sha256-OivDSADpfhvMKqTHCvDCpHrZDipA1H8jxLiacdmLseU=";
   };
 
+  npmDepsHash = "sha256-eHYCSUWI39Agbu2reA9u2MtDyQJ0mz2Mkb7GW/aR8Yc=";
+
   npmPackFlags = [ "--ignore-scripts" ];
 
   meta = with lib; {
