@@ -2,7 +2,7 @@
 
 buildNpmPackage rec {
   pname = "quartz";
-  version = "4.0.8";
+  version = "4.2.3";
 
   src = fetchFromGitHub {
     owner = "jackyzha0";
