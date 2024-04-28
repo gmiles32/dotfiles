@@ -4,7 +4,7 @@ buildNpmPackage rec {
   pname = "quartz";
   version = "4.0.8";
 
-  src = fetchFromGithub {
+  src = fetchFromGitHub {
     owner = "jackyzha0";
     repo = pname;
     rev = "v${version}";
