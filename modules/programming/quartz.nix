@@ -1,4 +1,8 @@
 { config, pkgs, lib, ... }: {
+  
+  import = [
+    ./npm
+  ];
 
   options.quartz.enable = lib.mkEnableOption "Enable Quartz.";
 
