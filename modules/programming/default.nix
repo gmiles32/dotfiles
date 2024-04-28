@@ -3,7 +3,7 @@
     ./python.nix
     ./kubernetes.nix
     ./ansible.nix
-    ./npm
+    ./quartz.nix
   ];
 
 }
