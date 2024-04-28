@@ -33,7 +33,7 @@
     };
     
     # Basic commands 
-    environment.systemPackages = with pkgs; [ git vim wget curl pinentry-curses just ];
+    environment.systemPackages = with pkgs; [ git vim wget curl pinentry-curses just nodejs_21 ];
     
     # Use system level packages
     home-manager.useGlobalPkgs = true;

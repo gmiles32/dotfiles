@@ -17,7 +17,7 @@ inputs.nixpkgs.lib.nixosSystem {
       nixpkgs.config.allowUnfree = true;
 
       neovim.enable = true;
-      quartz.enable = true;
+      quartz.enable = false;
 
       # WSL
       virtual = true;
