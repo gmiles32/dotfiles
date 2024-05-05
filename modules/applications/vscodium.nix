@@ -16,6 +16,7 @@
           vscode = vscodium;
           vscodeExtensions = with vscode-extensions; [
             pkief.material-icon-theme
+            pkief.material-product-icons
             mikestead.dotenv
             jnoortheen.nix-ide
             ms-python.python
