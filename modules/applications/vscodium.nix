@@ -32,7 +32,7 @@
               name = "gray-theme";
               publisher = "muhammad-sammy";
               version = "0.0.6";
-              sha256 = "";
+              sha256 = "sha256-RAgGFkBHekH8X1EV4ut+ZBN8nCDxQlaD3NVGPhESWYQ=";
             }
             {
               name = "nightfox";
