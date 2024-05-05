@@ -29,10 +29,10 @@
           ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
             # Foam theme
             {
-              name = "theme-gray-matter";
-              publisher = "philipbe";
-              version = "1.7.0";
-              sha256 = "sha256-DXK+TzPkAWn/wD/PP4KooVdm0KJZPtd5wBQDHKQZzVQ=";
+              name = "gray-theme";
+              publisher = "muhammad-sammy";
+              version = "0.0.6";
+              sha256 = "";
             }
             {
               name = "nightfox";
