@@ -69,6 +69,7 @@
         bibata-cursors
         roboto
         #jetbrains-mono
+        ( google-fonts.override {fonts = [ "Signika" "Open Sans" ]; })
         ( nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
         ]) ++ (with pkgs.gnomeExtensions; [
           blur-my-shell
@@ -142,9 +143,6 @@
         "org/gnome/desktop/wm/preferences" = {
           titlebar-font = "Roboto 11";
         };
-        "org/gnome/desktop/background" = {
-          picture-uri-dark = "file:///etc/nixos/hosts/common/sonoma.png";
-        };             
         "org/gnome/desktop/wm/keybindings" = {
           move-to-workspace-1 = [ "<Shift><Super>1" ];
           move-to-workspace-2 = [ "<Shift><Super>2" ];
