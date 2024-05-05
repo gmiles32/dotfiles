@@ -30,7 +30,7 @@
               (extension "ublock-origin" "uBlock0@raymondhill.net")
               (extension "bitwarden-password-manager" "{446900e4-71c2-419f-a6a7-df9c091e268b}")
               (extension "raindropio" "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack")
-              (extension "tabliss" "tabliss@tabliss.io")
+              (extension "Tabliss" "extension@tabliss.io")
             ];
         };
         profiles.default = {
