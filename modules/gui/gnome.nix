@@ -131,6 +131,7 @@
             "user-theme@gnome-shell-extensions.gcampax.github.com"
             "blur-my-shell@aunetx"
             "caffeine@patapon.info"
+            "Tiling-Assistant@Leleat"
           ];
         };
         "org/gnome/desktop/interface" = {
