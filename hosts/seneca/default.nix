@@ -32,6 +32,8 @@ inputs.nixpkgs.lib.nixosSystem {
       neovim.enable = true;
       alacritty.enable = false;
       tmux.enable = true;    
+      localsend.enable = true;
+
       # Keys
       gnupg.enable = false;
 

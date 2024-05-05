@@ -10,5 +10,6 @@
     ./spotify.nix
     ./neovim.nix
     ./alacritty.nix
+    ./localsend.nix
   ];
 }
