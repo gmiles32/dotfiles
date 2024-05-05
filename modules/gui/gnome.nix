@@ -143,7 +143,7 @@
           titlebar-font = "Roboto 11";
         };
         "org/gnome/desktop/background" = {
-          picture-uri-dark = "file:///etc/nixos/hosts/common/catalina.jpg";
+          picture-uri-dark = "file:///etc/nixos/hosts/common/sonoma.png";
         };             
         "org/gnome/desktop/wm/keybindings" = {
           move-to-workspace-1 = [ "<Shift><Super>1" ];
