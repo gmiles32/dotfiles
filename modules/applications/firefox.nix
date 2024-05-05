@@ -74,6 +74,7 @@
 
             # Disable Firefox View
             "browser.tabs.firefox-view" = false;
+            "browser.tabs.firefox-view-next" = false;
 
             # For themes
             "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
