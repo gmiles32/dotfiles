@@ -11,7 +11,7 @@
 
   config = lib.mkIf (config.localsend.enable) {
     home-manager.users.${config.user} = {
-      home.packages = with pkgs; [ "localsend" ];
+      home.packages = with pkgs; [ localsend ];
     };
   };
 }
