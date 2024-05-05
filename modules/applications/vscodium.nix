@@ -16,7 +16,6 @@
           vscode = vscodium;
           vscodeExtensions = with vscode-extensions; [
             pkief.material-icon-theme
-            pkief.material-product-icons
             mikestead.dotenv
             jnoortheen.nix-ide
             ms-python.python
@@ -40,6 +39,12 @@
               publisher = "keifererikson";
               version = "0.0.14";
               sha256 = "sha256-EZGKJMc/N+0V+9U/k12tUbzgfCNzWhdrouXRi7QOdyY=";
+            }
+            {
+              name = "material-product-icons";
+              publisher = "PKief";
+              version = "1.7.0";
+              sha256 = "";
             }
           ];
         })
