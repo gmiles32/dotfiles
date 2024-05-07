@@ -11,5 +11,6 @@
     ./neovim.nix
     ./alacritty.nix
     ./localsend.nix
+    ./quickemu.nix
   ];
 }
