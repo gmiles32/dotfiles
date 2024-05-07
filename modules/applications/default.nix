@@ -12,5 +12,6 @@
     ./alacritty.nix
     ./localsend.nix
     ./quickemu.nix
+    ./ticktick.nix
   ];
 }

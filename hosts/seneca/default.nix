@@ -34,6 +34,7 @@ inputs.nixpkgs.lib.nixosSystem {
       tmux.enable = true;    
       localsend.enable = false;
       quickemu.enable = true;
+      ticktick.enable = true;
 
       # Keys
       gnupg.enable = false;
