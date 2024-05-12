@@ -18,6 +18,7 @@ inputs.nixpkgs.lib.nixosSystem {
 
       neovim.enable = true;
       quartz.enable = false;
+      quickemu.enable = true;
 
       # WSL
       virtual = true;
