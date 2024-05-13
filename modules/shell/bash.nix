@@ -1,5 +1,5 @@
 { config, pkgs, lib, ... }: {
-  
+
   config = {
     home-manager.users.${config.user} = {
       programs.bash = {
@@ -12,12 +12,8 @@
           export KUBECONFIG="/home/gabe/Projects/talos/kubeconfig"
           source <(kubectl completion bash)
         '';
-        profileExtra = ''
-          if [[ -f ~/.bashrc ]]; then
-            source ~/.bashrc
-          fi
-        '';
       };
+      
     };    
   };
 }

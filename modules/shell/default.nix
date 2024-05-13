@@ -1,7 +1,7 @@
 { ... }: {
   imports = [
     ./git.nix
-    ./bash.nix
+    ./zsh.nix
     ./gnupg.nix
     ./tmux.nix
     ./fonts.nix

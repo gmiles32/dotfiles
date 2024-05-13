@@ -9,7 +9,7 @@
     };
   };
 
-  config = {
+  config = config.gnupg.enable {
     services.pcscd.enable = true;
     home-manager.users.${config.user} = {
       services.gpg-agent = {
