@@ -20,7 +20,13 @@
       url = "github:nix-community/NixOS-WSL";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    oh-my-bash = {
+      url = "github:ohmybash/oh-my-bash";
+      inputs.nixpkgs.follows = "nixpkgs";
+    }; 
   };
+
 
   outputs = { nixpkgs, ... }@inputs:
     let

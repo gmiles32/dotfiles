@@ -46,6 +46,11 @@
     home-manager.users.root.home.stateVersion = stateVersion;
     system.stateVersion = stateVersion;
 
+    # Install oh-my-bash
+    system.activationScripts.script.text = ''
+      bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+    '';
+
     # Secrets
     tailscale.authKeyFile = config.sops.secrets.tailscale-key.path;
   };
