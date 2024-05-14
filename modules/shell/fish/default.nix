@@ -6,13 +6,18 @@
     
     # Install custom fish for user
     home-manager.users.${config.user} = {
-      home.packages = with pkgs; [ fzf fd bat ];
+      home.packages = with pkgs; [ fd bat ];
+      programs.fzf = {
+        enable = true;
+        enableFishIntegration = true;
+      };
+
       programs.fish = {
         # General settings
         enable = true;
 
         plugins = [
-          { name = "fzf-fish"; src = pkgs.fishPlugins.fzf-fish.src; }
+          { name = "forgit"; src = pkgs.fishPlugins.forgit.src; }
           { name = "sponge"; src = pkgs.fishPlugins.sponge.src; }
           { name = "autopair"; src = pkgs.fishPlugins.autopair.src; }
           { name = "tide"; src = pkgs.fishPlugins.tide.src; }
