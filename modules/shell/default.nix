@@ -1,7 +1,8 @@
 { ... }: {
   imports = [
+    ./bash
+    ./fish
     ./git.nix
-    ./zsh.nix
     ./gnupg.nix
     ./tmux.nix
     ./fonts.nix
