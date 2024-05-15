@@ -42,7 +42,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "Carbonfox"
+            "colorScheme": "Gruber Darker"
         },
         "list": 
         [
@@ -77,7 +77,10 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "Carbonfox",
+                "colorScheme": 
+                {
+                    "light": "Gruber Darker"
+                },
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font Mono",
@@ -161,6 +164,75 @@
             "selectionBackground": "#E4E4E5",
             "white": "#DFDFE0",
             "yellow": "#08BDBA"
+        },
+        {
+            "background": "#181818",
+            "black": "#181818",
+            "blue": "#96A6C8",
+            "brightBlack": "#52494E",
+            "brightBlue": "#52494E",
+            "brightCyan": "#95A99F",
+            "brightGreen": "#73D936",
+            "brightPurple": "#9E95C7",
+            "brightRed": "#FF4F58",
+            "brightWhite": "#F5F5F5",
+            "brightYellow": "#FFDD33",
+            "cursorColor": "#FFDD33",
+            "cyan": "#95A99F",
+            "foreground": "#E4E4E4",
+            "green": "#73D936",
+            "name": "Gruber Darker",
+            "purple": "#9E95C7",
+            "red": "#F43841",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E4E4E4",
+            "yellow": "#FFDD33"
+        },
+        {
+            "background": "#272822",
+            "black": "#3E3D32",
+            "blue": "#03395C",
+            "brightBlack": "#272822",
+            "brightBlue": "#66D9EF",
+            "brightCyan": "#66D9EF",
+            "brightGreen": "#A6E22E",
+            "brightPurple": "#AE81FF",
+            "brightRed": "#F92672",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#FD971F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#66D9EF",
+            "foreground": "#F8F8F2",
+            "green": "#A6E22E",
+            "name": "Monokai",
+            "purple": "#AE81FF",
+            "red": "#F92672",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F8F8F2",
+            "yellow": "#FFE792"
+        },
+        {
+            "background": "#161616",
+            "black": "#282828",
+            "blue": "#78A9FF",
+            "brightBlack": "#272822",
+            "brightBlue": "#66D9EF",
+            "brightCyan": "#66D9EF",
+            "brightGreen": "#A6E22E",
+            "brightPurple": "#AE81FF",
+            "brightRed": "#F92672",
+            "brightWhite": "#F8F8F2",
+            "brightYellow": "#FD971F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#66D9EF",
+            "foreground": "#F8F8F2",
+            "green": "#A6E22E",
+            "name": "Monokai Improved",
+            "purple": "#AE81FF",
+            "red": "#F92672",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F8F8F2",
+            "yellow": "#FFE792"
         },
         {
             "background": "#282C34",
