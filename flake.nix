@@ -20,6 +20,9 @@
       url = "github:nix-community/NixOS-WSL";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    vscode-server.url = "github:nix-community/nixos-vscode-server";
+
   };
 
 
@@ -40,6 +43,14 @@
       nixosConfigurations = {
         seneca = import ./hosts/seneca { inherit inputs globals system; };
         wsl = import ./hosts/wsl { inherit inputs globals system; };
+      };
+
+
+      templates = rec {
+        poetry = {
+          path = ./templates/poetry;
+          description = "Poetry template";
+        };
       };
     };
 }
