@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }: {
   imports = [
-    ./vscodium.nix
+    ./vscode.nix
     ./syncthing.nix
     ./firefox.nix
     ./obsidian.nix

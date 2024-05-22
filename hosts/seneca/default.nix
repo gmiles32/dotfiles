@@ -21,10 +21,10 @@ inputs.nixpkgs.lib.nixosSystem {
       
       # Programs
       gnome.enable = true;
-      vscodium.enable = true;
+      vscode.enable = true;
       syncthing.enable = true;
       firefox.enable = true;
-      obsidian.enable = false;
+      obsidian.enable = true;
       spotify.enable = true;
       bitwarden.enable = true;
       zotero.enable = true;
