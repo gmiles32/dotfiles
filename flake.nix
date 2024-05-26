@@ -51,6 +51,10 @@
           path = ./templates/poetry;
           description = "Poetry template";
         };
+        ansible = {
+          path = ./templates/ansible;
+          description = "Ansible template";
+        };
       };
     };
 }
